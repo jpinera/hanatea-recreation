@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel:bold|EB+Garamond|GFS+Didot">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Hana Tea Recreation w/ Bootstrap</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<!-- Nav top bar -->
+<nav class="navbar navbar-expand-sm py-4 change-font">
+  <div class="container-fluid pt-2">
+    <div class="navbar-nav ps-5">
+      <a class="navbar-brand" href="index.html">
+        <img src="hanatea-logo.png" alt="logo" height="50">
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" >
+      <div class="navbar-nav justify-content-center">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Visit</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Join our team</a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="navbar-nav justify-content-end pe-5">
+      <li class="nav-item p-1">
+        <i class="bi bi-instagram px-2"></i>
+      </li>
+      <li class="nav-item p-1">
+        <i class="bi bi-yelp px-2"></i>
+      </li>
+      <li class="nav-item p-1">
+        <i class="bi bi-envelope px-2"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Main Image and overlapping text -->
+<div class="card text-white">
+  <img src="hanatea-backdrop-edit.jpeg" class="card-img" alt="Backdrop image">
+  <div class="card-img-overlay">
+    <div class="container-fluid row align-items-center justify-content-end" id="mainText">
+      <div class="col text-end me-3">
+        <h1 class="display-2 mb-4"><strong>Dillingham Hours:</strong></h1>
+        <h2 class="my-4">Unfortunately our Dillingham location is Closed as we look for a new location.</h2>
+        <h2 class="my-4">Mahalo and thank you for your patience.</h2>
+        <h1 class="display-2 my-5"><strong>Pearl City Hours:</strong></h1>
+        <h2 class="my-4">Tuesday - Thursday, Sunday: 11:30am-8:00pm</h2>
+        <h2 class="my-4">Friday, Saturday: 11:30AM - 9:00PM</h2>
+        <h2 class="display-5 my-5">Monday: closed</h2>
+        <button type="button" class="btn btn-light btn-lg py-3 px-4">Pearl City Order</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Information -->
+<div class="row align-items-center justify-content-center pt-5" id="middle">
+  <!-- Special Menu text -->
+  <div class="col-10 text-center py-5">
+    <div class="p-1 change-font">
+      <h5 class="mb-4">During special hours, only certain drinks are available.</h5>
+      <h3 class="my-5">‖   In-store   and   online   ordering   available   ‖</h3>
+      <h5 class="my-4 change-font">We accept phone order. Please call (808)376-8139.</h5>
+    </div>
+    <div class="p-1">
+      <button type="button" class="btn btn-dark py-3 px-4">Special Menu</button>
+    </div>
+  </div>
+  <!-- Bottom nav -->
+  <ul class="nav justify-content-center ms-4">
+    <li class="nav-item fs-4 mx-3">
+      <a class="nav-link active p-0" aria-current="page" href="#">Home</a>
+    </li>
+    <div class="fs-3">||</div>
+    <li class="nav-item fs-4 mx-3">
+      <a class="nav-link active p-0" href="#">Special Menu</a>
+    </li>
+    <div class="fs-3">||</div>
+    <li class="nav-item fs-4 mx-3">
+      <a class="nav-link active p-0" href="#">About</a>
+    </li>
+    <div class="fs-3">||</div>
+    <li class="nav-item fs-4 mx-3">
+      <a class="nav-link active p-0" href="#">Visit</a>
+    </li>
+  </ul>
+</div>
+
+<!-- Footer -->
+<footer class="mt-auto pb-3" id="footer">
+  <div class="container text-center">
+    <div class="row py-3">
+      <p><b>DILLINGHAM</b> | <b>m.</b> (808)376-8139 | 1111 Dillingham Blvd, Unit E-2, Honolulu, HI 96817</p>
+      <p><b>PEARL CITY</b> | <b>m.</b> (808)600-5024  |  1160 Kuala street, Unit 204, Pearl City, HI, 96782</p>
+    </div>
+    <div class="row">
+      <p class="change-font">© Hana Tea • All rights reserve</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
